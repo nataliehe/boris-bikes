@@ -11,7 +11,7 @@ station.release_bike # returns an error message as no bike is available
 
 20.times { station.dock(Bike.new) }
 
-station.bike # returns the bike instance docked at the station
+station.bikes # returns the bike instance docked at the station
 
 bike.working? # true or false
 
